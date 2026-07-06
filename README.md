@@ -39,9 +39,9 @@ watched forming in real time rather than assembled after the fact.
 
 ## Provenance note
 
-The repo went live on 2026-07-05. The signal rows and the open position
+The repo went live on 2026-07-06. The signal rows and the open position
 dated before that were backfilled from the system's local log at first
 publication — their detection timestamps are as recorded locally, but
 their *publication* timestamp is the first commit. Everything after
-2026-07-05 is published as it happens. The one open position's outcome
+2026-07-06 is published as it happens. The one open position's outcome
 (BTC short, max hold through 2026-07-23) was unknown at publication time.
