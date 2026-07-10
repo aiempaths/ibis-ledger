@@ -5,6 +5,14 @@ private quantitative trading system. Entries are pushed here automatically
 when they occur — **before their outcomes are known** — so the record can be
 watched forming in real time rather than assembled after the fact.
 
+## Not investment advice
+
+Nothing in this repository is investment, financial, trading, or legal
+advice, or an offer or solicitation of any kind. It is a research record
+of an experimental system trading a simulated (paper) account. Do not
+make investment decisions based on it. If you do anything with these
+records, you do so entirely at your own risk.
+
 ## What's here
 
 - **[signals.md](signals.md)** — every signal-day the system has computed:
@@ -12,6 +20,14 @@ watched forming in real time rather than assembled after the fact.
 - **[account.md](account.md)** — the paper account: open positions with
   their exit rules stated up front (max hold, target, stop), and every
   closed trade with its outcome.
+- **[EVIDENCE.md](EVIDENCE.md)** — the system's auto-generated
+  self-grading report: independent-episode counts, resolution status,
+  baseline comparisons, statistical power thresholds, and uptime. Its
+  verdict is computed from the data, not written by a person.
+- **[notes/cross-domain-test.md](notes/cross-domain-test.md)** — a
+  documented negative result from testing the prediction core on
+  non-financial data, including the false positive the grading system
+  caught.
 
 ## What this record claims
 
