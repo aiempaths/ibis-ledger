@@ -16,12 +16,12 @@ marked to market here.
 
 None yet.
 
-_Last updated 2026-07-10 06:18 UTC._
+_Last updated 2026-07-10 06:49 UTC._
 
 ## Status disclosure
 
-_LedgerChronicler narration, generated 2026-07-10T00:18:16. The computed numbers nearby are the source of truth; this text only describes them._
+_LedgerChronicler narration, generated 2026-07-10T00:49:56. The computed numbers nearby are the source of truth; this text only describes them._
 
-The current account state shows an equity balance of $10,000.00 USD. No trades have been closed yet, as the latest closed trade is not available.
+The current account state is as follows: the equity in US dollars is $10,000. The number of resolved episodes is not available. The evidence verdict string has not been produced yet, and no latest closed trade information is available.
 
-A verdict has been produced by evidence.py, stating that no trading-edge claim is possible due to 2 independent episodes existing and none having resolved at their hold horizon. This means that based on the current data, there is no indication of any profitable trading opportunities. Performance is within the baseline noise floor, as no alpha has been detected.
+No conclusion or verdict can be reported at this time.
