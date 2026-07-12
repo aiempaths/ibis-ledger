@@ -15,5 +15,6 @@ file's history for the third-party timestamp.
 | 2026-07-08T14:00 | BTC | UP | 0.71 | $62,217.00 |
 | 2026-07-09T00:08 | BTC | UP | 0.71 | $62,506.50 |
 | 2026-07-10T00:18 | BTC | UP | 0.71 | $63,977.00 |
+| 2026-07-12T16:55 | BTC | UP | 0.71 | $63,765.20 |
 
-_Last updated 2026-07-10 15:31 UTC._
+_Last updated 2026-07-12 22:55 UTC._
