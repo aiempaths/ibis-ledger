@@ -1,4 +1,4 @@
-# IBIS Evidence Report — 2026-07-18 18:16
+# IBIS Evidence Report — 2026-07-19 00:23
 
 Auto-generated from the live decision database, daily CSVs, and
 current quotes. Regenerates daily from the live loop, or on demand:
@@ -13,17 +13,17 @@ Signal-days: 10. Independent episodes: 3. Resolved: 0. These are different numbe
 
 ## Plain-Language Verdict (LLM narration of the numbers above)
 
-_ManifoldAuditor narration, generated 2026-07-18T18:16:59. The computed numbers nearby are the source of truth; this text only describes them._
+_ManifoldAuditor narration, generated 2026-07-19T00:23:12. The computed numbers nearby are the source of truth; this text only describes them._
 
-No trading-edge claim is possible because there are no resolved episodes. The data indicates that 0 out of 3 independent episodes have resolved at their hold horizon, which falls below the power threshold for a perfect record (5 resolved episodes needed). Therefore, based on the provided numbers, it cannot be concluded that an edge claim is justified.
+No trading-edge claim is possible because there are 0 resolved episodes at their hold horizon, which is below the power threshold for a perfect record (5 episodes) and all other thresholds. The number of resolved episodes needed to justify an edge claim varies by threshold: 37 for a 70% record, 67 for a 65% record, and 153 for a 60% record.
 
 ## Episodes
 
 | Asset | Dir | Started | Signal-days | Hold | Status |
 |---|---|---|---|---|---|
-| BTC | DOWN | 2026-07-03 | 1 | 20 | open (+3.62% so far, resolves +20 bars) |
-| BTC | UP | 2026-07-04 | 8 | 20 | open (+2.72% so far, resolves +20 bars) |
-| BTC | UP | 2026-07-15 | 1 | 20 | open (+0.14% so far, resolves +20 bars) |
+| BTC | DOWN | 2026-07-03 | 1 | 20 | open (+3.42% so far, resolves +20 bars) |
+| BTC | UP | 2026-07-04 | 8 | 20 | open (+2.53% so far, resolves +20 bars) |
+| BTC | UP | 2026-07-15 | 1 | 20 | open (-0.04% so far, resolves +20 bars) |
 
 ## Signal-day horizon scoring
 
@@ -31,16 +31,16 @@ P0 = signal-date daily close (fallback: detection price). Live detections evalua
 
 | Date | Asset | Dir | Conf | +1b | +3b | +5b | +10b | +20b | Now |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-07-03 | BTC | DOWN | 0.66 | +0.87% ✗ | +2.32% ✗ | -0.46% ✓ | -0.49% ✓ | — | +3.62% ✗ |
-| 2026-07-04 | BTC | UP | 0.64 | +0.73% ✓ | +0.33% ✓ | +0.17% ✓ | +2.96% ✓ | — | +2.72% ✓ |
-| 2026-07-05 | BTC | UP | 0.64 | +0.70% ✓ | -2.03% ✗ | +0.91% ✓ | +1.83% ✓ | — | +1.98% ✓ |
-| 2026-07-06 | BTC | UP | 0.64 | -1.09% ✗ | -1.25% ✗ | -0.30% ✗ | -0.32% ✗ | — | +1.27% ✓ |
-| 2026-07-07 | BTC | UP | 0.64 | -1.64% ✗ | +1.31% ✓ | +0.73% ✓ | +0.95% ✓ | — | +2.38% ✓ |
-| 2026-07-08 | BTC | UP | 0.71 | +1.50% ✓ | +2.48% ✓ | -0.03% ✗ | +4.10% ✓ | — | +4.09% ✓ |
-| 2026-07-09 | BTC | UP | 0.71 | +1.48% ✓ | +0.89% ✓ | +2.79% ✓ | — | — | +2.55% ✓ |
-| 2026-07-10 | BTC | UP | 0.71 | -0.51% ✗ | -2.94% ✗ | +0.91% ✓ | — | — | +1.06% ✓ |
-| 2026-07-12 | BTC | UP | 0.71 | -2.38% ✗ | +1.50% ✓ | +0.22% ✓ | — | — | +1.64% ✓ |
-| 2026-07-15 | BTC | UP | 0.72 | -1.43% ✗ | +0.15% ✓ | — | — | — | +0.14% ✓ |
+| 2026-07-03 | BTC | DOWN | 0.66 | +0.87% ✗ | +2.32% ✗ | -0.46% ✓ | -0.49% ✓ | — | +3.42% ✗ |
+| 2026-07-04 | BTC | UP | 0.64 | +0.73% ✓ | +0.33% ✓ | +0.17% ✓ | +2.96% ✓ | — | +2.53% ✓ |
+| 2026-07-05 | BTC | UP | 0.64 | +0.70% ✓ | -2.03% ✗ | +0.91% ✓ | +1.83% ✓ | — | +1.79% ✓ |
+| 2026-07-06 | BTC | UP | 0.64 | -1.09% ✗ | -1.25% ✗ | -0.30% ✗ | -0.32% ✗ | — | +1.08% ✓ |
+| 2026-07-07 | BTC | UP | 0.64 | -1.64% ✗ | +1.31% ✓ | +0.73% ✓ | +0.95% ✓ | — | +2.19% ✓ |
+| 2026-07-08 | BTC | UP | 0.71 | +1.50% ✓ | +2.48% ✓ | -0.03% ✗ | +4.10% ✓ | — | +3.90% ✓ |
+| 2026-07-09 | BTC | UP | 0.71 | +1.48% ✓ | +0.89% ✓ | +2.79% ✓ | — | — | +2.36% ✓ |
+| 2026-07-10 | BTC | UP | 0.71 | -0.51% ✗ | -2.94% ✗ | +0.91% ✓ | — | — | +0.87% ✓ |
+| 2026-07-12 | BTC | UP | 0.71 | -2.38% ✗ | +1.50% ✓ | +0.22% ✓ | — | — | +1.45% ✓ |
+| 2026-07-15 | BTC | UP | 0.72 | -1.43% ✗ | +0.15% ✓ | — | — | — | -0.04% ✗ |
 
 ## Baseline comparison (same dates, same horizons)
 
@@ -50,7 +50,7 @@ P0 = signal-date daily close (fallback: detection price). Live detections evalua
 | +3 bars | 10 | 6 | 7 | 3 | 7 |
 | +5 bars | 9 | 7 | 6 | 5 | 4 |
 | +10 bars | 6 | 5 | 4 | 2 | 4 |
-| now | 10 | 9 | 10 | 6 | 4 |
+| now | 10 | 8 | 9 | 7 | 3 |
 
 A coin flip expects n/2. Persistence = yesterday's direction continues; anti-persistence = it reverses. If IBIS does not clearly beat EVERY baseline column at meaningful n, no edge claim survives — the cross-domain test showed that grading against a weaker-than-best trivial rule produces false positives.
 
@@ -58,17 +58,17 @@ A coin flip expects n/2. Persistence = yesterday's direction continues; anti-per
 
 | If true hit rate is | Resolved episodes needed | Have | ETA (observed cadence) | ETA (backtest-prior cadence) |
 |---|---|---|---|---|
-| perfect record (min possible) | 5 | 0 | 2026-09-01 | 2026-09-20 |
-| 70% | 37 | 0 | 2027-02-08 | 2027-07-03 |
-| 65% | 67 | 0 | 2027-07-08 | 2028-03-28 |
-| 60% | 153 | 0 | 2028-09-10 | 2030-05-06 |
+| perfect record (min possible) | 5 | 0 | 2026-09-03 | 2026-09-21 |
+| 70% | 37 | 0 | 2027-02-21 | 2027-07-04 |
+| 65% | 67 | 0 | 2027-07-31 | 2028-03-29 |
+| 60% | 153 | 0 | 2028-11-01 | 2030-05-07 |
 
-Cadence assumptions: observed 6.1 episodes/month
+Cadence assumptions: observed 5.7 episodes/month
 (measured over the live record so far — a tiny sample, treat as rough); backtest-prior 3.4 episodes/month for the currently-live assets (BTC, SOL). Activating GOLD+SPY would roughly double the prior cadence.
 
 ## Reliability (separate axis from edge)
 
-**Uptime, trailing 7 days: 23.4%.** Since continuous operation began (2026-07-03): 38.8%. A gap is any >45min stretch without a completed cycle; the gap from the last cycle to now counts, so a live freeze shows up here within the day it happens.
+**Uptime, trailing 7 days: 23.4%.** Since continuous operation began (2026-07-03): 39.8%. A gap is any >45min stretch without a completed cycle; the gap from the last cycle to now counts, so a live freeze shows up here within the day it happens.
 
 Gaps in the last 7 days:
 - 2026-07-12 21:32 → 2026-07-14 13:14 (39.7h)
@@ -78,8 +78,8 @@ Per-asset live coverage:
 
 | Asset | Cycles | Signals | First cycle | Last cycle |
 |---|---|---|---|---|
-| BTC | 302 | 264 | 2026-07-02T17:32 | 2026-07-18T18:16 |
-| SOL | 99 | 0 | 2026-07-08T21:11 | 2026-07-18T18:16 |
+| BTC | 314 | 264 | 2026-07-02T17:32 | 2026-07-19T00:22 |
+| SOL | 111 | 0 | 2026-07-08T21:11 | 2026-07-19T00:23 |
 
 Watchdog: run_ibis.py supervises the loop (heartbeat file, 45-minute timeout, logged restarts in data/watchdog.log). Freeze detection is now bounded to under an hour — previously a freeze went unnoticed for 37 hours (2026-07-07, root-caused: unbounded network call, since fixed).
 
