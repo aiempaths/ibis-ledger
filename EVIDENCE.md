@@ -1,4 +1,4 @@
-# IBIS Evidence Report — 2026-07-18 18:15
+# IBIS Evidence Report — 2026-07-18 18:16
 
 Auto-generated from the live decision database, daily CSVs, and
 current quotes. Regenerates daily from the live loop, or on demand:
@@ -13,9 +13,9 @@ Signal-days: 10. Independent episodes: 3. Resolved: 0. These are different numbe
 
 ## Plain-Language Verdict (LLM narration of the numbers above)
 
-_ManifoldAuditor narration, generated 2026-07-18T18:15:48. The computed numbers nearby are the source of truth; this text only describes them._
+_ManifoldAuditor narration, generated 2026-07-18T18:16:59. The computed numbers nearby are the source of truth; this text only describes them._
 
-No trading-edge claim is possible because there are no resolved episodes at their hold horizon. The number of resolved episodes is 0, which is below the power threshold for a perfect record (5) and all other thresholds listed (37 for 70%, 67 for 65%, and 153 for 60%).
+No trading-edge claim is possible because there are no resolved episodes. The data indicates that 0 out of 3 independent episodes have resolved at their hold horizon, which falls below the power threshold for a perfect record (5 resolved episodes needed). Therefore, based on the provided numbers, it cannot be concluded that an edge claim is justified.
 
 ## Episodes
 
@@ -34,22 +34,22 @@ P0 = signal-date daily close (fallback: detection price). Live detections evalua
 | 2026-07-03 | BTC | DOWN | 0.66 | +0.87% ✗ | +2.32% ✗ | -0.46% ✓ | -0.49% ✓ | — | +3.62% ✗ |
 | 2026-07-04 | BTC | UP | 0.64 | +0.73% ✓ | +0.33% ✓ | +0.17% ✓ | +2.96% ✓ | — | +2.72% ✓ |
 | 2026-07-05 | BTC | UP | 0.64 | +0.70% ✓ | -2.03% ✗ | +0.91% ✓ | +1.83% ✓ | — | +1.98% ✓ |
-| 2026-07-06 | BTC | UP | 0.64 | -1.09% ✗ | -1.25% ✗ | -0.30% ✗ | +0.51% ✓ | — | +1.27% ✓ |
-| 2026-07-07 | BTC | UP | 0.64 | -1.64% ✗ | +1.31% ✓ | +0.73% ✓ | — | — | +2.38% ✓ |
-| 2026-07-08 | BTC | UP | 0.71 | +1.50% ✓ | +2.48% ✓ | -0.03% ✗ | — | — | +4.09% ✓ |
+| 2026-07-06 | BTC | UP | 0.64 | -1.09% ✗ | -1.25% ✗ | -0.30% ✗ | -0.32% ✗ | — | +1.27% ✓ |
+| 2026-07-07 | BTC | UP | 0.64 | -1.64% ✗ | +1.31% ✓ | +0.73% ✓ | +0.95% ✓ | — | +2.38% ✓ |
+| 2026-07-08 | BTC | UP | 0.71 | +1.50% ✓ | +2.48% ✓ | -0.03% ✗ | +4.10% ✓ | — | +4.09% ✓ |
 | 2026-07-09 | BTC | UP | 0.71 | +1.48% ✓ | +0.89% ✓ | +2.79% ✓ | — | — | +2.55% ✓ |
 | 2026-07-10 | BTC | UP | 0.71 | -0.51% ✗ | -2.94% ✗ | +0.91% ✓ | — | — | +1.06% ✓ |
-| 2026-07-12 | BTC | UP | 0.71 | -2.38% ✗ | +1.50% ✓ | — | — | — | +1.64% ✓ |
-| 2026-07-15 | BTC | UP | 0.72 | -0.61% ✗ | — | — | — | — | +0.14% ✓ |
+| 2026-07-12 | BTC | UP | 0.71 | -2.38% ✗ | +1.50% ✓ | +0.22% ✓ | — | — | +1.64% ✓ |
+| 2026-07-15 | BTC | UP | 0.72 | -1.43% ✗ | +0.15% ✓ | — | — | — | +0.14% ✓ |
 
 ## Baseline comparison (same dates, same horizons)
 
 | Horizon | n | IBIS | Always-UP | Persistence | Anti-persistence |
 |---|---|---|---|---|---|
 | +1 bars | 10 | 4 | 5 | 7 | 3 |
-| +3 bars | 9 | 5 | 6 | 3 | 6 |
-| +5 bars | 8 | 6 | 5 | 5 | 3 |
-| +10 bars | 4 | 4 | 3 | 3 | 1 |
+| +3 bars | 10 | 6 | 7 | 3 | 7 |
+| +5 bars | 9 | 7 | 6 | 5 | 4 |
+| +10 bars | 6 | 5 | 4 | 2 | 4 |
 | now | 10 | 9 | 10 | 6 | 4 |
 
 A coin flip expects n/2. Persistence = yesterday's direction continues; anti-persistence = it reverses. If IBIS does not clearly beat EVERY baseline column at meaningful n, no edge claim survives — the cross-domain test showed that grading against a weaker-than-best trivial rule produces false positives.
@@ -72,14 +72,14 @@ Cadence assumptions: observed 6.1 episodes/month
 
 Gaps in the last 7 days:
 - 2026-07-12 21:32 → 2026-07-14 13:14 (39.7h)
-- 2026-07-15 01:20 → 2026-07-18 18:15 (88.9h)
+- 2026-07-15 01:20 → 2026-07-18 18:16 (88.9h)
 
 Per-asset live coverage:
 
 | Asset | Cycles | Signals | First cycle | Last cycle |
 |---|---|---|---|---|
-| BTC | 301 | 264 | 2026-07-02T17:32 | 2026-07-15T01:20 |
-| SOL | 98 | 0 | 2026-07-08T21:11 | 2026-07-15T01:20 |
+| BTC | 302 | 264 | 2026-07-02T17:32 | 2026-07-18T18:16 |
+| SOL | 99 | 0 | 2026-07-08T21:11 | 2026-07-18T18:16 |
 
 Watchdog: run_ibis.py supervises the loop (heartbeat file, 45-minute timeout, logged restarts in data/watchdog.log). Freeze detection is now bounded to under an hour — previously a freeze went unnoticed for 37 hours (2026-07-07, root-caused: unbounded network call, since fixed).
 
